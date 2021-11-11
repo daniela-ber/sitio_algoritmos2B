@@ -2,7 +2,7 @@
 // 1.Inicio
 //Autor: Daniela Bernardino
 //Fecha: 11 de octubre de 2021
-function calcularPromedio () //Calula promedio
+function calcularPromedio () //Calula promedio {
 // 2.Definir c1, c2 ,c3, c4, c5 promediovar
 var c1;
 var c2;
@@ -21,6 +21,7 @@ c5 = parseFloat(document.getElementById("calificacion5").value);
 promedio = (c1 + c2 + c3 + c4 + c5) / 5;
 // 5. Imprimir promedio 
 alert("Tu promedio es:" + promedio);
+}
 // 6. Fin 
 
 //calcularPromedio();
